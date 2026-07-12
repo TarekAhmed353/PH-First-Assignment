@@ -288,3 +288,95 @@ border-top-color: #33405a;
 .pro li {
 color: #ddd;
 }
+.venue {
+background: #f5f7fb;
+padding: 80px 20px;
+text-align: center;
+}
+
+.venue h2 {
+color: #1e293b;
+font-size: 36px;
+}
+
+.venue-card {
+display: flex;
+justify-content: space-between;
+gap: 30px;
+max-width: 1050px;
+margin: 40px auto;
+padding: 36px;
+background: #fff;
+border: 1px solid #eaecef;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+text-align: left;
+}
+
+.venue-left {
+max-width: 540px;
+}
+
+.venue-left h3 {
+color: #1e293b;
+font-size: 26px;
+margin: 8px 0 6px;
+}
+
+.venue-left p {
+color: #666;
+}
+
+.venue-desc {
+margin-top: 12px;
+}
+
+.venue-right {
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+.fact {
+display: flex;
+flex-direction: column;
+}
+
+.fact-num {
+color: #2563eb;
+font-size: 20px;
+font-weight: 700;
+}
+
+.fact-label {
+color: #888;
+font-size: 13px;
+}
+
+.faq {
+max-width: 750px;
+margin: 0 auto;
+text-align: left;
+}
+
+.faq details {
+background: #fff;
+border: 1px solid #eaecef;
+border-radius: 10px;
+padding: 18px 22px;
+margin-bottom: 14px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.faq summary {
+cursor: pointer;
+font-weight: 600;
+color: #1e293b;
+font-size: 16px;
+}
+
+.faq details p {
+color: #666;
+font-size: 15px;
+margin-top: 12px;
+}
