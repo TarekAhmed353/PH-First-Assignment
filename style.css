@@ -161,3 +161,130 @@ margin: 8px 0 4px;
 color: #888;
 font-size: 14px;
 }
+.pricingpart {
+text-align: center;
+padding: 80px 20px;
+background: #fff;
+}
+
+.pricingpart h2 {
+color: #1e293b;
+font-size: 36px;
+}
+
+.sub {
+color: #888;
+margin-top: 8px;
+}
+
+.plans {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 24px;
+max-width: 1050px;
+margin: 40px auto 0;
+text-align: left;
+}
+
+.plan {
+border: 1px solid #eaecef;
+border-radius: 12px;
+padding: 28px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.label {
+color: #888;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1px;
+}
+
+.price {
+color: #111;
+font-size: 38px;
+font-weight: 800;
+margin: 10px 0 4px;
+}
+
+.unit {
+color: #888;
+font-size: 14px;
+}
+
+.plan hr {
+border: none;
+border-top: 1px solid #e0e0e0;
+margin: 20px 0;
+}
+
+.plan ul {
+margin-bottom: 24px;
+}
+
+.plan li {
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+.plan li:before {
+content: "•  ";
+color: #2563eb;
+}
+
+.btnlight,
+.btndark,
+.btnblue {
+display: block;
+text-align: center;
+padding: 12px;
+border-radius: 8px;
+font-weight: 600;
+}
+
+.btnlight {
+background: #fff;
+border: 1px solid #e0e0e0;
+color: #2563eb;
+}
+
+.btndark {
+background: #fff;
+border: 1px solid #e0e0e0;
+color: #111;
+}
+
+.btnblue {
+background: #2563eb;
+color: #fff;
+}
+
+.btnblue:hover {
+background: #1d4ed8;
+}
+
+.pro {
+background: #0e1a2e;
+border-color: #0e1a2e;
+color: #fff;
+}
+
+.pro .label {
+color: #93b4ff;
+}
+
+.pro .price {
+color: #fff;
+}
+
+.pro .unit {
+color: #bbb;
+}
+
+.pro hr {
+border-top-color: #33405a;
+}
+
+.pro li {
+color: #ddd;
+}
