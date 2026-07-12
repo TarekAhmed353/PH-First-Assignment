@@ -380,3 +380,55 @@ color: #666;
 font-size: 15px;
 margin-top: 12px;
 }
+.footer {
+padding: 40px 60px;
+border-top: 1px solid #e0e0e0;
+}
+
+.foot-top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.socials {
+display: flex;
+gap: 14px;
+}
+
+.socials a {
+color: #888;
+}
+
+.socials a:hover {
+color: #2563eb;
+}
+
+.socials svg {
+width: 20px;
+height: 20px;
+}
+
+.footer hr {
+border: none;
+border-top: 1px solid #e0e0e0;
+margin: 24px 0;
+}
+
+.footer p {
+color: #888;
+font-size: 14px;
+}
+
+@media (max-width: 800px) {
+.cards,
+.plans {
+grid-template-columns: 1fr;
+}
+.venue-card {
+flex-direction: column;
+}
+.hero h1 {
+font-size: 40px;
+}
+}
